@@ -7,5 +7,19 @@
 @layer base {
   * {
     font-family: 'Press Start 2P', monospace;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    overscroll-behavior: none;
+    touch-action: pan-y;
+  }
+
+  #root {
+    height: 100%;
+    overflow-y: auto;
+    overscroll-behavior: none;
   }
 }

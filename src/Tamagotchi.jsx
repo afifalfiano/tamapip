@@ -89,14 +89,24 @@ export default function Tamagotchi() {
   const battleDisabled = !pet.alive || pet.sleeping || pet.stage < 2
 
   return (
-    <div style={{ minHeight: '100vh', background: '#030a03', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '16px' }}>
+    <div style={{
+      height: '100dvh',
+      background: '#030a03',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding: '16px',
+      overflow: 'hidden',
+    }}>
       {/* Device shell */}
       <div style={{
         width: '100%', maxWidth: '400px',
+        maxHeight: 'calc(100dvh - 32px)',
         background: 'linear-gradient(160deg, #0d1a0d 0%, #050f05 100%)',
         border: '3px solid #166534', borderRadius: '4px',
         boxShadow: 'inset 0 0 30px rgba(0,0,0,0.5)',
         position: 'relative', overflow: 'hidden', fontFamily: px,
+        display: 'flex', flexDirection: 'column',
       }}>
         {/* Scanlines */}
         <div style={{
@@ -116,7 +126,7 @@ export default function Tamagotchi() {
           }} />
         ))}
 
-        <div style={{ position: 'relative', zIndex: 1, padding: '16px' }}>
+        <div style={{ position: 'relative', zIndex: 1, padding: '16px', overflowY: 'auto', flex: 1 }}>
           <GameHeader pet={pet} onHelp={() => setShowHelp(true)} />
 
           <PetViewport

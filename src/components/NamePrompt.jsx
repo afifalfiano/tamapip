@@ -4,7 +4,7 @@ import { px } from '../constants/game'
 export function NamePrompt({ onStart }) {
   const [name, setName] = useState('')
   return (
-    <div style={{ minHeight: '100vh', background: '#030a03', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '16px' }}>
+    <div style={{ height: '100dvh', background: '#030a03', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '16px', overflow: 'hidden' }}>
       <div style={{
         width: '100%', maxWidth: '360px',
         background: 'linear-gradient(160deg, #0d1a0d 0%, #050f05 100%)',
