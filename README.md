@@ -2,6 +2,12 @@
 
 A Tamagotchi-inspired virtual pet game that runs entirely in the browser. Hatch, raise, and battle pixel-art pets through a retro LCD-styled interface — your pet is saved automatically so it keeps living between visits.
 
+## Demo
+
+![TamTamPip screenshot](demo.png)
+
+<video src="demo.webm" controls width="100%"></video>
+
 ## Features
 
 - **Full pet lifecycle** — Egg → Baby → Child → Teen → Adult over real hours
