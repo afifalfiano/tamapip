@@ -1,6 +1,6 @@
 # TamTamPip 🥚
 
-A Tamagotchi-inspired virtual pet game that runs entirely in the browser. Hatch, raise, and battle pixel-art pets through a retro LCD-styled interface — your pet is saved automatically so it keeps living between visits.
+A Tamagotchi-inspired virtual pet game that runs entirely in the browser. Hatch, raise, and battle pixel-art pets through a retro LCD-styled interface — your pet is saved automatically so it keeps living between visits..
 
 ## Demo
 
